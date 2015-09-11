@@ -22,7 +22,11 @@ $(document).ready(function() {
 	.mouseup(function(){
 		$('.ryu-throwing').hide();
 		$('.ryu-ready').show();
-	});
+	})
+	$('#ryu-music')[0].volume = 0.5;
+	$('#ryu-music')[0].load();
+	$('#ryu-music')[0].play();
+
 });
 
 $(document).keydown(function(e){
