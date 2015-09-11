@@ -1,0 +1,12 @@
+body {
+	background-color: black;
+}
+
+.middle {
+	position: relative;
+	background-color: white;
+	height: 550px;
+	top: 100px;
+	padding: 0;
+}
+
