@@ -2,11 +2,16 @@ body {
 	background-color: black;
 }
 
-.middle {
+.main {
 	position: relative;
 	background-color: white;
-	height: 550px;
-	top: 100px;
-	padding: 0;
+	height: 500px;
+	margin-top: 110px;
+	min-width: 1200px;
+	padding-left: 100px;
+}
+
+.ryu {
+	float: left;
 }
 
